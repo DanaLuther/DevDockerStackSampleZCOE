@@ -1,10 +1,10 @@
 # Converting your DEV Environment to a Docker Stack
 
 To start this basic LEMP stack:\
-```docker stack deploy -c docker-compose.yml sunshine```
+```docker stack deploy -c docker-compose.yml zcoe```
 
 To take the stack down:\
-```docker stack rm sunshine```
+```docker stack rm zcoe```
 
 Sample Web Folder:
  * _public_html/_ : This folder is mapped to the container and will update as you modify the files within it directly.
@@ -24,6 +24,7 @@ Sample custom php extension enabled Dockerfiles:\
  
 Additional Files:
  * _mysite.conf_ : Sample nginx configuration for this application
+ * _mysite2.conf_ : Alternate nginx configuration for demonstrating config objects
  * _root_db_password.txt_ : Secret file for the mysql image
  * _composer.json_ : Sample composer file 
  

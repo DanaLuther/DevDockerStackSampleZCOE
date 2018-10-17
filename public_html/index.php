@@ -17,7 +17,7 @@ error_reporting( E_NONE );
 	<?php
 	if ( extension_loaded( 'mysqli' ) )
 	{
-		$db = new \mysqli( 'db', 'root', 'sunshinephp' );
+		$db = new \mysqli( 'db', 'root', 'zcoe2018' );
 		echo "MySQL Enabled.";
 	} else
 	{
